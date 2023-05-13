@@ -1,0 +1,487 @@
+body{
+	background-image: url(https://static.vecteezy.com/system/resources/previews/010/266/240/original/silhouette-of-human-hands-palm-up-praying-and-worship-of-cross-eucharist-therapy-bless-god-helping-belief-forgiveness-freedom-hope-and-faith-christian-religion-concept-on-sunset-background-free-photo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+nav ul{
+	margin: auto;
+}
+
+.logo {
+	width: 50px;
+	margin: auto;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu{
+	margin-top:10px;
+}
+
+
+
+.menu li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 701px){
+
+.parent {
+	display: grid;
+	grid-template-columns: repeat(3, 550px);
+	grid-template-rows: repeat(4, 300px);
+	grid-column-gap: 225px;
+	grid-row-gap: 100px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div1 { 
+	grid-area: 1 / 1 / 2 / 2; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin: auto;
+}
+
+.div1 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div2 { 
+	grid-area: 1 / 2 / 2 / 3; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin: auto;
+}
+
+.div2 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+
+.div3 { 
+	grid-area: 1 / 3 / 2 / 4; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin: auto;
+}
+
+.div3 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div4 { 
+	grid-area: 2 / 1 / 3 / 2;
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: auto;
+}
+
+.div4 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div5 { grid-area: 2 / 2 / 3 / 3; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: auto;
+}
+
+.div5 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+
+.div6 { 
+	grid-area: 2 / 3 / 3 / 4; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: auto;
+}
+
+.div6 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;	
+}
+
+.div7 { 
+	grid-area: 3 / 1 / 4 / 2; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 200px;
+	margin-left: auto;
+}
+
+.div7 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div8 { 
+	grid-area: 3 / 2 / 4 / 3; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 200px;
+	margin-left: auto;
+}
+
+.div8 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+
+.div9 { 
+	grid-area: 3 / 3 / 4 / 4; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 200px;
+	margin-left: auto;
+}
+
+.div9 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+
+.div10 { 
+	grid-area: 4 / 1 / 5 / 2; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 300px;
+	margin-left: auto;
+}
+
+.div10 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div11 { 
+	grid-area: 4 / 2 / 5 / 3; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 300px;
+}
+
+.div11 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+.div12 { 
+	grid-area: 4 / 3 / 5 / 4; 
+	display: flex;
+	width: 600px;
+	height: 500px;
+	margin-top: 300px;
+}
+
+.div12 img{
+	height: 400px;
+	width: 550px;
+	margin: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 500px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media-links {
+  margin-bottom: 10px;
+}
+
+.social-media-links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media-links img {
+  width: 60px;
+  height: 60px;
+}
+
+.footer-text {
+  font-size: 25px;
+}
+
+}
+
+@media screen and (min-width:500px) and (max-width: 700px){
+	body{
+	background-image: url(https://static.vecteezy.com/system/resources/previews/010/266/240/original/silhouette-of-human-hands-palm-up-praying-and-worship-of-cross-eucharist-therapy-bless-god-helping-belief-forgiveness-freedom-hope-and-faith-christian-religion-concept-on-sunset-background-free-photo.jpg);
+	background-size: 225%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	}
+	.parent {
+		display: grid;
+		grid-template-columns: 500px;
+		grid-template-rows: repeat(12, 500px);
+		grid-column-gap: 0px;
+		grid-row-gap: 50px;
+		width: 100%;
+	}
+
+	.div1 { 
+		grid-area: 1 / 1 / 2 / 2;
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div1 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+	.div2 { 
+		grid-area: 2 / 1 / 3 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div2 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+	.div3 { 
+		grid-area: 3 / 1 / 4 / 2;
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto; 
+	}
+
+	.div3 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+	.div4 { 
+		grid-area: 4 / 1 / 5 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div4 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;		
+	}
+
+	.div5 { 
+		grid-area: 5 / 1 / 6 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div5 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;			
+	}
+
+	.div6 { 
+		grid-area: 6 / 1 / 7 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div6 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+
+	.div7 { 
+		grid-area: 7 / 1 / 8 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;
+	}
+
+	.div7 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+
+	.div8 { 
+		grid-area: 8 / 1 / 9 / 2;
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto; 
+	}
+
+	.div8 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;		
+	}
+
+	.div9 { 
+		grid-area: 9 / 1 / 10 / 2;
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto;  
+	}
+
+	.div9 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;		
+	}
+
+	.div10 { 
+		grid-area: 10 / 1 / 11 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto; 
+	}
+
+	.div10 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+
+	.div11 { 
+		grid-area: 11 / 1 / 12 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto; 
+	}
+
+	.div11 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+	.div12 { 
+		grid-area: 12 / 1 / 13 / 2; 
+		display: flex;
+		width: 630px;
+		height: 500px;
+		margin: auto; 
+	}
+
+	.div12 img{
+		height: 450px;
+		width: 500px;
+		margin: auto;
+	}
+	footer {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		margin-top: 500px;
+	}
+
+	.footer-container {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.social-media-links {
+		margin-bottom: 10px;
+	}
+
+	.social-media-links a {
+		display: inline-block;
+		margin: 0 10px;
+	}
+
+	.social-media-links img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.footer-text {
+		font-size: 14px;
+	}
+}
+
